@@ -26,9 +26,15 @@ Steps:
 4. Go back to the contract deployment section, choose the `PupperCoin` function from the dropdown, then copy and paste the "token_address" from the the previous step into the "At Address" field and click on the "At Address" button. This should generate your 3rd and final contract, the PupperCoin contract.
 
 Below are the screenshots of the deployed smart contracts:
+
+<p float="left">
+  <img src="Screenshots/contract_1and2.png"/>
+  <img src="Screenshots/contract_3.png"/> 
+ </p>
+
+
 ![1](Screenshots/contract_1and2.png)
 
-Screenshot for PupperCoin contract 
 ![2](Screenshots/contract_3.png)
 
 ------------------------
