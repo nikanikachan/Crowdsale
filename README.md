@@ -21,9 +21,9 @@ Steps:
 
 2. Deploy `Crowdsale.sol` by choosing the `PupperCoinSaleDeployer` function from the contract dropdown. Fill in the fields for Name (PupperCoin), Symbol (I chose "PPCN" for this example) and Wallet (Choose your own wallet), then click on transact. This should generate two contract addresses when you click on the button for token address and token_sale_address
 
-3. Go back to the contract deployment section, choose the `PupperCoinSale` function from the dropdown, then copy and paste the "token_sale_address" from the the previous step into the "At Address" field and click on the "At Address" button. This should generate your Puppercoin sale contract below the first contract. 
+3. Go back to the contract deployment section, choose the `PupperCoinSale` function from the dropdown, then copy and paste the `token_sale_address` from the the previous step into the "At Address" field and click on the "At Address" button. This should generate your Puppercoin sale contract below the first contract. 
 
-4. Go back to the contract deployment section, choose the `PupperCoin` function from the dropdown, then copy and paste the "token_address" from the the previous step into the "At Address" field and click on the "At Address" button. This should generate your 3rd and final contract, the PupperCoin contract.
+4. Go back to the contract deployment section, choose the `PupperCoin` function from the dropdown, then copy and paste the `token_address` from the the previous step into the "At Address" field and click on the "At Address" button. This should generate your 3rd and final contract, the PupperCoin contract.
 
 Below are the screenshots of the deployed smart contracts:
 
@@ -31,11 +31,6 @@ Below are the screenshots of the deployed smart contracts:
   <img src="Screenshots/contract_1and2.png"/>
   <img src="Screenshots/contract_3.png"/> 
  </p>
-
-
-![1](Screenshots/contract_1and2.png)
-
-![2](Screenshots/contract_3.png)
 
 ------------------------
 
