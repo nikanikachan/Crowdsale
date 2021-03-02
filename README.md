@@ -40,11 +40,11 @@ In this section, I will show you how to buy tokens with ETH using the contracts 
 
 - You will need some ETH first since we are doing this in the Ropsten testnet. You can get it from this [Ropsten faucet](https://faucet.ropsten.be/).
 
-- To buy tokens, input the amount of tokens that you want to buy in the "Value" field of Solidity (Note that we have a 1:1 exchange rate of ETH to PPCN token), then put the target wallet address of the token buyer in the `buyToken` field of the PupperCoin sale contract. See video below:
+- To buy tokens, input the amount of tokens that you want to buy in the "Value" field of Solidity (Note that we have a 1:1 exchange rate of ETH to PPCN token), then put the wallet address of the token buyer in the `buyToken` field of the PupperCoin sale contract. See video below:
 
 ![3](Screenshots/BuyingToken_short.gif)
 
-The transaction was pending for while but below you can see the successful transaction hash along with the confirmation from MetaMask. You can also view this yourself in [Etherscan](https://ropsten.etherscan.io/tx/0xc30a02358422004c86984bf5a072bd5c447af0ccf2b35cb283891218883ef865)
+Below you can see the successful transaction hash along with the confirmation from MetaMask. You can also view this yourself in [Etherscan](https://ropsten.etherscan.io/tx/0xc30a02358422004c86984bf5a072bd5c447af0ccf2b35cb283891218883ef865)
 
 ![4](Screenshots/etherscan_metamask.png)
 
@@ -52,7 +52,7 @@ Below is a screenshot of our target account's balance. We can see that the targe
 
 ![5](Screenshots/token_balance_edit.png)
 
-Lastly, below is a screenshot of the buyer's MyCrypto account. Note that MyCrypto found the PPCN token we created. 
+Lastly, Here is my MyCrypto account. Here we can see that MyCrypto found the PPCN token we created. At the time of testing and making this particular screenshot, I bought 10000 wei of PPCN which is not enough to see the actual token amount on the screen. If you have a lot of ETH, try buying a bigger amount of tokens to see this reflected in MyCrypto.
 
 ![5](Screenshots/mycrypto.png)
 
