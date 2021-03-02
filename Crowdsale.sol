@@ -42,7 +42,7 @@ contract PupperCoinSaleDeployer {
         // @TODO: Fill in the constructor parameters!
         string memory name,
         string memory symbol,
-        address payable wallet //address to receive the crowdsale funds
+        address payable wallet
     )
         public
     {
